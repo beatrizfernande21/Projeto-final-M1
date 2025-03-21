@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio 🍽</h1>
+        <button id="toggle-mode">🌙 Modo Escuro</button>
+    </header>
+
+    <main>
+        <section class="menu">
+            <div class="item" data-name="Hambúrguer" data-price="15">
+                <img src="cardapio/imagem/img.Hambúrguer.png" width="200" height="200" alt="Hambúrguer">
+                <h2>Hambúrguer</h2>
+                <p>Delicioso hambúrguer artesanal.</p>
+                <span>R$ 15,00</span>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+
+            <div class="item" data-name="Pizza" data-price="30">
+                <img src="img.pizza.png" width="200" height="200" alt="Pizza">
+                <h2>Pizza</h2>
+                <p>Pizza de queijo com borda recheada.</p>
+                <span>R$ 30,00</span>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+            
+
+            <div class="item" data-name="Suco Natural" data-price="10">
+                <img src="img.suco.png" width="200" height="200" alt="Suco">
+                <h2>Suco Natural</h2>
+                <p>Suco de laranja natural e refrescante.</p>
+                <span>R$ 10,00</span>
+                <button class="add-to-cart">Adicionar</button>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho 🛒</h2>
+            <ul id="cart-list"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

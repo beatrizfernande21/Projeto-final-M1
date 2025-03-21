@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s, background 0.3s;
+    border-radius: 8px;
+    list-style: none;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+    background: #f0f0f0;
+  }
+  
+  .cart {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fafafa;
+  }
+  
+  /* Modo escuro */
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode header {
+    background: #444;
+    border-bottom: 1px solid #666;
+  }
+  
+  .dark-mode .item {
+    border-color: #bbb;
+    background: #444;
+  }
+  
+  .dark-mode .item:hover {
+    background: #555;
+  }
+  
+  .dark-mode .cart {
+    background: #444;
+    border-color: #bbb;
+  }
+  
+  .dark-mode button {
+    background: #ff9800;
+  }
+  
+  .dark-mode button:hover {
+    background: #e68900;
+  }
